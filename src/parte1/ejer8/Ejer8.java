@@ -29,7 +29,7 @@ public class Ejer8 {
 			reader.nextLine();
 			switch (opc) {
 			case 1 -> {
-				try (BufferedWriter in = new BufferedWriter(new FileWriter("src\\parte1\\ejer7\\Temperaturas", true))) {
+				try (BufferedWriter in = new BufferedWriter(new FileWriter("src\\parte1\\ejer8\\Temperaturas", true))) {
 					
 						System.out.println("Dime fecha actual , la temperatura minima y la maximam :");
 						dia = reader.nextInt();
@@ -52,7 +52,7 @@ public class Ejer8 {
 				}
 			}
 			case 2 -> {
-				try (BufferedReader in = new BufferedReader(new FileReader("src\\parte1\\ejer7\\Contactos"))) {
+				try (BufferedReader in = new BufferedReader(new FileReader("src\\parte1\\ejer8\\Temperaturas"))) {
 					
 					linea = in.readLine();
 					
